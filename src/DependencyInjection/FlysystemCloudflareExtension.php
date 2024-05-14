@@ -60,7 +60,7 @@ final class FlysystemCloudflareExtension extends Extension implements PrependExt
     private function buildStorageAdapterDefinition(
         ContainerBuilder $container,
         string $storageName,
-        array $storageOptions,
+        array $storageOptions
     ): void
     {
         $client = new Definition();
