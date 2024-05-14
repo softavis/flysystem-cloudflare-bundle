@@ -1,0 +1,42 @@
+{
+    "name": "softavis/flysystem-cloudflare-bundle",
+    "description": "Symfony bundle for implementing flysystem cloudflare adapter",
+    "keywords": [
+        "symfony",
+        "flysystem",
+        "cloudflare",
+        "adapter"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zlatin Hristov",
+            "email": "zlatin.hristov@softavis.com"
+        },
+        {
+            "name": "Softavis Ltd",
+            "homepage": "https://www.softavis.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "league/flysystem": "^2.1|^3.0",
+        "softavis/flysystem-cloudflare": "^0.1",
+        "symfony/config": "^5.4 || ^6.0 || ^7.0",
+        "symfony/http-kernel": "^5.4 || ^6.0 || ^7.0",
+        "symfony/dependency-injection": "^5.4 || ^6.0 || ^7.0",
+        "symfony/options-resolver": "^5.4 || ^6.0 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softavis\\FlysystemCloudflareBundle\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
+}
